@@ -8,30 +8,106 @@
 *{
     line-height: 1.5;
 }
+/* banner styles */
+.banner{
+    background-image: url('../assets/Hero-bg.png'); 
+    background-size:contain;
 
+}
+.banner-content{
+    text-align: center; 
+    padding: 50px 221px 45px 221px; 
+    width: 50%; 
+    margin: 0 auto;
+}
+.banner-bg{
+    margin-bottom: 25px;
+
+}
+.banner-title{
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 0;
+    
+
+}
+.banner-message{
+    margin-top: 20px;
+    font-size: 16;
+    opacity: 0.7;
+    color: #0D1321;
+    
+
+}
 /* button styles */
 .contact-button {
-    margin-top: 30px;
+    margin-top: 20px;
     background-color: #0D1321;
-    padding:20px 24px 20px 24px;
+    padding:20px 26px 20px 26px;
     font-family: inherit;
     font-weight: 600;
     font-size: 16px;
     color: #FFFFFF;
     border-radius: 8px;
     border: none;
-
+    cursor: pointer;
 
 }
-/* Horizontal card styles */
+
+main{
+    max-width: 1140px; 
+    margin: 0 auto;
+}
+
+/* Why Section */
+.why-section{
+    background-color: rgba(13, 19, 33, 0.02); 
+    margin-top: 74px; 
+    padding: 80px 97px 80px 97px; 
+    border-radius: 16px; 
+    border: none;
+}
 .why-intro-section{
     text-align: center;
     margin-bottom: 48px;
 }
+.why-section-heading{
+    font-weight: 800; 
+    font-size: 32px;
+}
+.why-section-paragraph{
+    opacity: 0.7;
+}
 
-.horizontal-cards{
+/* Cards in Why section styles */
+
+.horizontal-card-one{
+    display: flex; 
+    justify-content: space-between; 
+    gap: 160px; 
+    padding: 48px; 
+    background-color:white;
     border-radius: 16px;
     border: none;
+}
+.horizontal-card-two{
+    display: flex; 
+    justify-content: space-between; 
+    gap: 50px; padding: 48px; 
+    background-color:white; 
+    margin-top: 32px;
+    border-radius: 16px;
+    border: none;
+}
+.horizontal-card-three{
+    display: flex; 
+    justify-content: space-between; 
+    gap: 150px; padding: 48px;
+    background-color:white; 
+    border-radius: 16px;
+    border: none;
+
+    margin-top: 32px;
 }
 .horizontal-cards-heading{
     font-size: 24px;
