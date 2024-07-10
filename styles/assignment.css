@@ -5,45 +5,51 @@
     font-style: normal;
 }
 
-*{
+* {
     line-height: 1.5;
 }
+
 /* banner styles */
-.banner{
-    background-image: url('../assets/Hero-bg.png'); 
-    background-size:contain;
+.banner {
+    background-image: url('../assets/Hero-bg.png');
+    background-size: contain;
 
 }
-.banner-content{
-    text-align: center; 
-    padding: 50px 221px 45px 221px; 
-    width: 50%; 
+
+.banner-content {
+    text-align: center;
+    padding: 50px 221px 45px 221px;
+    width: 50%;
     margin: 0 auto;
 }
-.banner-bg{
+
+.banner-bg {
     margin-bottom: 25px;
 
 }
-.banner-title{
+
+.banner-title {
     font-size: 45px;
     font-weight: 800;
     margin-top: 0;
-    
+
 
 }
-.banner-message{
+
+.banner-message {
     margin-top: 20px;
     font-size: 16;
     opacity: 0.7;
     color: #0D1321;
-    
+
 
 }
+
 /* contact button style */
 .contact-button {
     margin-top: 20px;
     background-color: #0D1321;
-    padding:20px 26px 20px 26px;
+    padding: 20px 26px 20px 26px;
     font-family: inherit;
     font-weight: 600;
     font-size: 16px;
@@ -54,78 +60,87 @@
 
 }
 
-main{
-    max-width: 1140px; 
+main {
+    max-width: 1140px;
     margin: 0 auto;
 }
 
 /* Why Section */
-.why-section{
-    background-color: rgba(13, 19, 33, 0.02); 
-    margin-top: 74px; 
-    padding: 80px 97px 80px 97px; 
-    border-radius: 16px; 
+.why-section {
+    background-color: rgba(13, 19, 33, 0.02);
+    margin-top: 74px;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
     border: none;
 }
-.why-intro-section{
+
+.why-intro-section {
     text-align: center;
     margin-bottom: 48px;
 }
-.why-section-heading{
-    font-weight: 800; 
+
+.why-section-heading {
+    font-weight: 800;
     font-size: 32px;
 }
-.why-section-paragraph{
+
+.why-section-paragraph {
     opacity: 0.7;
 }
 
 /* Cards in Why section styles */
 
-.horizontal-card-one{
-    display: flex; 
-    justify-content: space-between; 
-    gap: 160px; 
-    padding: 48px; 
-    background-color:white;
+.horizontal-card-one {
+    display: flex;
+    justify-content: space-between;
+    gap: 160px;
+    padding: 48px;
+    background-color: white;
     border-radius: 16px;
     border: none;
 }
-.horizontal-card-two{
-    display: flex; 
-    justify-content: space-between; 
-    gap: 50px; padding: 48px; 
-    background-color:white; 
+
+.horizontal-card-two {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 48px;
+    background-color: white;
     margin-top: 32px;
     border-radius: 16px;
     border: none;
 }
-.horizontal-card-three{
-    display: flex; 
-    justify-content: space-between; 
-    gap: 150px; padding: 48px;
-    background-color:white; 
+
+.horizontal-card-three {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    padding: 48px;
+    background-color: white;
     border-radius: 16px;
     border: none;
 
     margin-top: 32px;
 }
-.horizontal-cards-heading{
+
+.horizontal-cards-heading {
     font-size: 24px;
     font-weight: bold;
     /* max-width: 70%; */
     color: rgba(13, 19, 33, 0.7);
 }
 
-.horizontal-cards-paragraph{
+.horizontal-cards-paragraph {
     font-size: 16px;
     color: rgba(13, 19, 33, 1);
     opacity: 0.7;
     max-width: 90%;
 }
-.horizontal-cards-button{
+
+.horizontal-cards-button {
     opacity: 0.7;
     margin-top: 30px;
-  
+
     background-color: transparent;
     font-family: inherit;
     font-size: 20px;
@@ -139,17 +154,18 @@ main{
 /* Inspiration Styles */
 
 
-.inspiration-section{
-    text-align: center; 
+.inspiration-section {
+    text-align: center;
     margin-top: 90px;
 }
-.inspiration-heading{
-    font-weight:800;
+
+.inspiration-heading {
+    font-weight: 800;
     font-size: 32px;
 
 }
 
-.inspiration-paragraph{
+.inspiration-paragraph {
     font-size: 16px;
     color: rgba(13, 19, 33, 1);
     opacity: 0.7;
@@ -157,15 +173,17 @@ main{
     margin: 0px auto;
 
 }
-.yt-vid-container{
+
+.yt-vid-container {
     border-radius: 16px;
     padding: 32px;
     margin-top: 48px;
     border: 2px solid rgba(13, 19, 33, 0.2);
 
 }
-.yt-vid{
-    
+
+.yt-vid {
+
     border-radius: 16px;
     border: none;
 
@@ -175,19 +193,24 @@ main{
 /* Current Target styles */
 
 
-.current-target-section{
+.current-target-section {
     margin-top: 125px;
-}
-.current-target-intro{
-    text-align: center;
+
 }
 
-.current-target-heading{
-    font-weight:800;
+.current-target-intro {
+
+    text-align: center;
+
+}
+
+.current-target-heading {
+    font-weight: 800;
     font-size: 32px;
     margin: 0px;
 }
-.current-target-paragraph{
+
+.current-target-paragraph {
     font-size: 16px;
     color: rgba(13, 19, 33, 1);
     opacity: 0.7;
@@ -195,70 +218,79 @@ main{
     margin: 24px auto;
 
 }
-.current-card-container{
-    display: flex; 
-    gap: 24px; 
+
+.current-card-container {
+    display: flex;
+    gap: 24px;
     margin-top: 48px;
 }
-.current-card{
+
+.current-card {
     padding: 40px;
     border-radius: 16px;
     border: none;
     width: 33%;
 }
-.current-card-title{
+
+.current-card-title {
     font-size: 24px;
     font-weight: 800;
     margin: 24px 0px 8px 0px;
 }
-.current-card-paragraph{
+
+.current-card-paragraph {
     font-size: 16px;
     color: rgba(13, 19, 33, 1);
     opacity: 0.7;
 
 }
-.card-html{
-    background-color:rgba(255, 76, 30, 0.05);
+
+.card-html {
+    background-color: rgba(255, 76, 30, 0.05);
 }
-.card-css{
+
+.card-css {
     background-color: rgba(0, 76, 232, 0.05);
 
 }
-.card-js{
+
+.card-js {
     background-color: rgba(255, 223, 0, 0.05);
 
 }
 
-.learn-more-link{
+.learn-more-link {
     margin-top: 24px;
-    color:#0D1321;
+    color: #0D1321;
     font-weight: 700;
     cursor: pointer;
 }
 
 /* support section styles */
 
-.support-section{
+.support-section {
     text-align: center;
-    padding: 64px 48px; 
+    padding: 64px 48px;
     /* the below code is for darkening the footer background image by using gradiant */
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/handshake.jpg') ;
-    margin-top: 100px; 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/handshake.jpg');
+    margin-top: 100px;
     background-size: cover;
     background-position: center;
     border-radius: 16px;
     border: none;
-    
+
 }
-.support-heading{
-    font-weight:800;
+
+.support-heading {
+    font-weight: 800;
     font-size: 32px;
-    color:#FFFFFF ;
-    margin:0;
+    color: #FFFFFF;
+    margin: 0;
 
 
 }
-.support-paragraph{
+
+.support-paragraph {
     color: #FFFFFF;
     opacity: 0.7;
     margin: 25px auto;
@@ -266,42 +298,46 @@ main{
 
 }
 
-.support-section input[type="text"]{
+.support-section input[type="text"] {
     font-family: inherit;
     border-radius: 8px;
     border: none;
     padding: 20px;
-    
+
     width: 50%;
     /* max-width: 70%; */
- 
+
 }
-.submit-button{
+
+.submit-button {
     font-family: inherit;
     border-radius: 8px;
     border: none;
     color: #0D1321;
-    font-weight:600;
+    font-weight: 600;
     font-size: 20px;
     padding: 15px 20px;
     background-color: #FFFFFF;
     cursor: pointer;
 
 }
-::placeholder{
+
+::placeholder {
     color: rgba(13, 19, 33, 0.4);
-    
+
 }
+
 /* footer styles */
-.footer{
+.footer {
     padding: 32px;
     margin-top: 80px;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-around;
-    background-color:rgba(13, 19, 33, 0.02);
+    background-color: rgba(13, 19, 33, 0.02);
 }
-.footer-remarks{
+
+.footer-remarks {
     font-size: 20px;
     font-weight: 600;
 }
