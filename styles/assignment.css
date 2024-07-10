@@ -75,7 +75,7 @@
     border-radius: 16px;
     padding: 32px;
     margin-top: 48px;
-    border: 1px solid rgba(13, 19, 33, 0.2);
+    border: 2px solid rgba(13, 19, 33, 0.2);
 
 }
 .yt-vid{
@@ -174,4 +174,17 @@ form{
 ::placeholder{
     color: rgba(13, 19, 33, 0.4);
     
+}
+/* footer styles */
+.footer{
+    padding: 32px;
+    margin-top: 80px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color:rgba(13, 19, 33, 0.02);
+}
+.footer-remarks{
+    font-size: 20px;
+    font-weight: 600;
 }
