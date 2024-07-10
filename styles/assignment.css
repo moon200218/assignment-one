@@ -39,7 +39,7 @@
     
 
 }
-/* button styles */
+/* contact button style */
 .contact-button {
     margin-top: 20px;
     background-color: #0D1321;
@@ -132,9 +132,17 @@ main{
     font-weight: 600;
     border: 1px solid rgba(13, 19, 33, 1);
     padding: 12px 20px;
+    cursor: pointer;
 
 }
+
 /* Inspiration Styles */
+
+
+.inspiration-section{
+    text-align: center; 
+    margin-top: 90px;
+}
 .inspiration-heading{
     font-weight:800;
     font-size: 32px;
@@ -145,6 +153,8 @@ main{
     font-size: 16px;
     color: rgba(13, 19, 33, 1);
     opacity: 0.7;
+    max-width: 850px;
+    margin: 0px auto;
 
 }
 .yt-vid-container{
@@ -156,12 +166,22 @@ main{
 }
 .yt-vid{
     
-    /* padding: 32px; */
     border-radius: 16px;
     border: none;
 
 }
+
+
 /* Current Target styles */
+
+
+.current-target-section{
+    margin-top: 125px;
+}
+.current-target-intro{
+    text-align: center;
+}
+
 .current-target-heading{
     font-weight:800;
     font-size: 32px;
@@ -171,8 +191,14 @@ main{
     font-size: 16px;
     color: rgba(13, 19, 33, 1);
     opacity: 0.7;
-    margin-top: 24px;
+    max-width: 946px;
+    margin: 24px auto;
 
+}
+.current-card-container{
+    display: flex; 
+    gap: 24px; 
+    margin-top: 48px;
 }
 .current-card{
     padding: 40px;
@@ -191,14 +217,31 @@ main{
     opacity: 0.7;
 
 }
+.card-html{
+    background-color:rgba(255, 76, 30, 0.05);
+}
+.card-css{
+    background-color: rgba(0, 76, 232, 0.05);
+
+}
+.card-js{
+    background-color: rgba(255, 223, 0, 0.05);
+
+}
+
 .learn-more-link{
     margin-top: 24px;
     color:#0D1321;
     font-weight: 700;
+    cursor: pointer;
 }
 
+/* support section styles */
+
 .support-section{
+    text-align: center;
     padding: 64px 48px; 
+    /* the below code is for darkening the footer background image by using gradiant */
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/handshake.jpg') ;
     margin-top: 100px; 
     background-size: cover;
@@ -221,11 +264,8 @@ main{
     margin: 25px auto;
     max-width: 730px;
 
+}
 
-}
-form{
-    margin-top: px;
-}
 .support-section input[type="text"]{
     font-family: inherit;
     border-radius: 8px;
@@ -245,6 +285,7 @@ form{
     font-size: 20px;
     padding: 15px 20px;
     background-color: #FFFFFF;
+    cursor: pointer;
 
 }
 ::placeholder{
